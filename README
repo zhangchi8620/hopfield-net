@@ -1,0 +1,25 @@
+1. How to run
+
+make clean; make
+
+To get the results of 420 requires
+./net_420
+
+To get the results of 527 requres
+./net_527
+
+2. How to plot
+
+./net_420 >output1.dat
+./net_527 >output2.dat
+
+run read_input.m in matlab will plot four figures
+
+3. Change parameter values
+
+Open source code net_420.cpp and net_527.cpp, change 
+
+"#define PATT XX"
+"#define NEUR XX"
+
+then repeat step 1 and 2 to get results and figures.
